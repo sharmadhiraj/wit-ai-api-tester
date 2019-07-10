@@ -1,4 +1,4 @@
-# Wit.AI API Tester(WIP)
+# Wit.AI API Tester
 
 #### Easily test [wit.ai](https://wit.ai/) API request
 
@@ -10,3 +10,5 @@ To overcome this I have created simple HTML/JavaScript app with which you can ea
 1. Clone project.
 2. Update access_token on main.js (Use Server Access Token from Settings/App Details)
 3. Done! Just run index.html on browser.
+
+![Wit.AI API Tester](https://raw.githubusercontent.com/sharmadhiraj/wit-ai-api-tester/master/screenshots/screenshot_1.png)
