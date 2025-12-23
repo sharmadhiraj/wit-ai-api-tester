@@ -10,12 +10,11 @@ function getQuery() {
 
 function get() {
     setLoading();
-    fetch("https://api.wit.ai/message?v=" + today() + "&q=" + getQuery(),
-        {
-            headers: {
-                Authorization: "Bearer " + access_token
-            }
-        }).then(response => response.json())
+    fetch("https://api.wit.ai/message?v=" + today() + "&q=" + getQuery(), {
+        headers: {
+            Authorization: "Bearer " + access_token
+        }
+    }).then(response => response.json())
         .then(data => {
             setResponse(stringify(data));
             console.log(data);

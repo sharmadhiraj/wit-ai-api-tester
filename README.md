@@ -1,8 +1,10 @@
 ## Wit.AI API Tester
 
-### Easily Test Wit.AI API Requests
+### Test Wit.AI API Requests
 
-When exploring [Wit.AI](https://wit.ai/), I encountered the challenge of testing requests. Each new request required creating a curl request from the Settings tab and then executing it from the console. To address this, I created a simple HTML/JavaScript app that allows easy testing of requests.
+When exploring [Wit.AI](https://wit.ai/), I encountered the challenge of testing requests. Testing a new request
+required manually creating a curl command from the Settings tab and running it in the console.
+To address this, I created a simple HTML/JavaScript app that allows easy testing of requests.
 
 ### Setup Guide
 
